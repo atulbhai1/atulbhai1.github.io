@@ -10,24 +10,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plaster&display=swap" rel="stylesheet">
     <style>
-      p {
+      h1 {
         font-family: 'Plaster', serif;
         font-size: 50px;
         }
+      div.absolute {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(to right, #70A0FF , #F4E668);
+}
     </style>
+
 </head>
 <body>
-<nav class="sticky top-0 z-50 bg-white">
+<div class="absolute">
+</div>
+
+<nav class="sticky top-0 z-50 bg-transparent">
     <section class="relative mx-auto bg-gradient-to-r from-[#85E172] to-[#00B276] text-white px-12 py-5" style="border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;">
-    <!--<div class="container mx-auto">-->
-        <div class="flex items-center">
+        <div class="flex items-center justify-between">
             <div class="flex items-center">
-                <p>Atul Nitin</p>
+                <h1 class="text-5xl">Atul Nitin</h1>
+                <p>Hullo</p>
             </div>
         </div>
-    <!--</div>-->
         </section>
 </nav>
 
+
+<section class="relative bg-gradient-to-r from-[#70A0FF] to-[#F4E668] text-white py-10">
+    <div class="container mx-auto px-6 text-center">
+    <h1 class="text-6xl mb-6">About Me</h1>
+    </div>
+</section>
+
+<section class="relative bg-white text-white py-80">
+    <div class="container mx-auto px-6 text-center">
+
+    </div>
+</section>
+
+<section class="relative bg-white text-white py-80">
+    <div class="container mx-auto px-6 text-center">
+
+    </div>
+</section>
 </body>
 </html>
